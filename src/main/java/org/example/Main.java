@@ -5,7 +5,7 @@ import java.util.*;
 /*  A calculator using the shunting yard algorithm (https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
     to parse simple expressions using the four core arithmetic operators (+, -, *, /)
 
-    tl;dr expressions like 2 + 4 * 2 are parsed as 2 4 2 * + to ensure that the order of operations is correct
+    tl;dr expressions like 2 + 4 * 2 are parsed as 2 4 * 2 + to ensure that the order of operations is correct
 */
 
 public class Main {
